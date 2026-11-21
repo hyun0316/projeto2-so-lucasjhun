@@ -1,0 +1,4 @@
+view_distance,n_repeticoes,rss_mib_media_das_medias,rss_mib_maior_pico_amostrado,rss_mib_desvio_padrao_entre_repeticoes,heap_used_mib_media_das_medias,heap_used_mib_maior_pico_amostrado,heap_used_mib_desvio_padrao_entre_repeticoes,heap_committed_mib_media_das_medias,heap_committed_mib_maior_pico_amostrado,heap_committed_mib_desvio_padrao_entre_repeticoes
+4,4,814.759,1261.859,64.068,841.848,1234.188,13.061,2048.0,2048.0,0.0
+8,4,1110.948,1525.25,125.606,694.382,1230.189,40.316,2048.0,2048.0,0.0
+12,4,786.202,1323.766,112.598,824.643,1376.0,67.431,2048.0,2048.0,0.0

@@ -1,0 +1,17 @@
+projeto=Minecraft server memory vs view-distance
+view_distance=4
+repeticao=3
+pid=56098
+inicio=2026-11-18T19:17:10.139055-03:00
+amostras=25
+intervalo_segundos=5.0
+sistema=macOS-15.6.1-arm64-arm-64bit
+comando_java=/usr/bin/java -Xms2G -Xmx8G -jar server.jar nogui
+java_version=openjdk version "25.0.5" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-25.0.5+8 (build 25.0.5+8-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, sharing)
+unidades=KiB de 1024 bytes; MiB = KiB / 1024
+heap_used=jstat -gc (S0U + S1U + EU + OU), sem Metaspace
+heap_committed=jstat -gc (S0C + S1C + EC + OC)
+NOTA: registrar versao do servidor, mundo, coordenadas, jogadores, simulation-distance
+fim=2026-11-18T19:19:10.277891-03:00

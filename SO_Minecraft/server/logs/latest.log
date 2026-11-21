@@ -1,0 +1,28 @@
+[20:17:52] [ServerMain/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[20:17:52] [Worker-Main-2/INFO]: Loaded 1866 advancements
+[20:17:52] [Server thread/INFO]: Starting minecraft server version 26.3
+[20:17:52] [Server thread/INFO]: Loading properties
+[20:17:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:17:52] [Server thread/INFO]: Generating keypair
+[20:17:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:17:53] [Server thread/INFO]: Preparing level "world"
+[20:17:53] [Server thread/INFO]: Loading 0 persistent chunks...
+[20:17:53] [Server thread/INFO]: Preparing spawn area: 100%
+[20:17:53] [Server thread/INFO]: Time elapsed: 13 ms
+[20:17:53] [Server thread/INFO]: Done (0.160s)! For help, type "help"
+[20:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:17:55] [Server thread/INFO]: hyunugii (/127.0.0.1:53722) lost connection: Disconnected
+[20:17:58] [User Authenticator #1/INFO]: UUID of player hyunugii is ca276a2b-0eb7-4a1b-b47c-1913dae0f170
+[20:17:58] [Server thread/INFO]: hyunugii[/127.0.0.1:53727] logged in with entity id 32 at (22.5, 63.0, -55.5)
+[20:17:58] [Server thread/INFO]: System chat: hyunugii joined the game
+[20:22:36] [Server thread/INFO]: System chat: Stopping the server
+[20:22:36] [Server thread/INFO]: Stopping server
+[20:22:36] [Server thread/INFO]: Saving players
+[20:22:36] [Server thread/INFO]: hyunugii lost connection: Server closed
+[20:22:36] [Server thread/INFO]: System chat: hyunugii left the game
+[20:22:36] [Server thread/INFO]: Saving worlds
+[20:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether

@@ -1,0 +1,200 @@
+=== AMOSTRA 1, t_plan=0.00s ===
+$ ps -o rss= -p 57221
+356064
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     258048.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 2, t_plan=5.00s ===
+$ ps -o rss= -p 57221
+368816
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     290816.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 3, t_plan=10.00s ===
+$ ps -o rss= -p 57221
+385248
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     331776.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 4, t_plan=15.00s ===
+$ ps -o rss= -p 57221
+395104
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     364544.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 5, t_plan=20.00s ===
+$ ps -o rss= -p 57221
+431520
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     409600.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 6, t_plan=25.00s ===
+$ ps -o rss= -p 57221
+466240
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     442368.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 7, t_plan=30.00s ===
+$ ps -o rss= -p 57221
+516640
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     487424.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 8, t_plan=35.00s ===
+$ ps -o rss= -p 57221
+573360
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     524288.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 9, t_plan=40.00s ===
+$ ps -o rss= -p 57221
+620064
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     569344.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 10, t_plan=45.00s ===
+$ ps -o rss= -p 57221
+655984
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     602112.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 11, t_plan=50.00s ===
+$ ps -o rss= -p 57221
+701072
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     647168.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 12, t_plan=55.00s ===
+$ ps -o rss= -p 57221
+709040
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     684032.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 13, t_plan=60.00s ===
+$ ps -o rss= -p 57221
+751152
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     724992.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 14, t_plan=65.00s ===
+$ ps -o rss= -p 57221
+782208
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     757760.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 15, t_plan=70.00s ===
+$ ps -o rss= -p 57221
+815904
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     798720.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 16, t_plan=75.00s ===
+$ ps -o rss= -p 57221
+840096
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     831488.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 17, t_plan=80.00s ===
+$ ps -o rss= -p 57221
+842656
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     872448.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 18, t_plan=85.00s ===
+$ ps -o rss= -p 57221
+849808
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     909312.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 19, t_plan=90.00s ===
+$ ps -o rss= -p 57221
+849296
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     950272.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 20, t_plan=95.00s ===
+$ ps -o rss= -p 57221
+879584
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0     983040.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 21, t_plan=100.00s ===
+$ ps -o rss= -p 57221
+910016
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0    1024000.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 22, t_plan=105.00s ===
+$ ps -o rss= -p 57221
+923408
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0    1060864.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 23, t_plan=110.00s ===
+$ ps -o rss= -p 57221
+954928
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0    1105920.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 24, t_plan=115.00s ===
+$ ps -o rss= -p 57221
+978064
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0    1138688.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
+=== AMOSTRA 25, t_plan=120.00s ===
+$ ps -o rss= -p 57221
+1032352
+
+$ jstat -gc 57221
+    S0C         S1C         S0U         S1U          EC           EU           OC           OU          MC         MU       CCSC      CCSU     YGC     YGCT     FGC    FGCT     CGC    CGCT       GCT   
+        0.0     65536.0         0.0     63488.0    1191936.0    1179648.0     839680.0     165888.0   104704.0   103661.9   18112.0   17688.2     11     0.307     0     0.000     8     0.012     0.319
+
